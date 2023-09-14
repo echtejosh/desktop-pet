@@ -1,2 +1,2 @@
 # desktop-duck
-A pet duck that wonders around on your taskbar!
+Decorate your desktop with a pet duck that wanders around on your taskbar!
