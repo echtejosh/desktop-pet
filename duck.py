@@ -60,7 +60,7 @@ class Duck:
         self.change_frame(direction)
 
         if self.x <= 0 or self.x >= (self.window.winfo_screenwidth() - 128):
-            self.change_direction()
+            self.dir = -self.dir
 
         self.window.geometry('128x128+{}+{}'.format(self.x, self.y))
         self.label.configure(image=self.img)
